@@ -32,5 +32,5 @@ Edit the contents of the script according to your own environment.
 - Validity check of the variable value is not done. Before executing the script, please check the content thoroughly by testing.
 
 ## Usage
-    db_renew.sh import.sql
+    wp_db_renew.sh import.sql
 
