@@ -32,4 +32,4 @@ WordPressのDB内容を指定したインポートファイルですべて入れ
 - 変数の値の正当性チェックを行いません。スクリプトを実行する前に、テストをするなどして十分に内容を確認してください。
 
 ## Usage
-    db_renew.sh import.sql
+    wp_db_renew.sh import.sql
