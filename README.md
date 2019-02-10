@@ -34,3 +34,9 @@ Edit the contents of the script according to your own environment.
 ## Usage
     wp_db_renew.sh import.sql
 
+### When not changing domain
+Change the last two lines when not changing the domain.
+
+    #eval ${cmd7} && eval ${cmd8} && eval ${cmd9} && \
+    #eval ${cmd10} && eval ${cmd11} && eval ${cmd12}
+    eval ${cmd7} && eval ${cmd8} && eval ${cmd9}
