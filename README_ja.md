@@ -35,7 +35,7 @@ WordPressのDB内容を指定したインポートファイルですべて入れ
     wp_db_renew.sh import.sql
 
 ### ドメインを変更しない時
-ドメインの変更はしないときは、最後の2行を変更します。
+ドメインの変更をしないときは最後の2行を変更します。
 
     #eval ${cmd7} && eval ${cmd8} && eval ${cmd9} && \
     #eval ${cmd10} && eval ${cmd11} && eval ${cmd12}
