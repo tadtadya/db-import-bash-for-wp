@@ -6,6 +6,7 @@ It is a tool of bash script which rewrites all wordpress DB data with import fil
 ## Requirement
 - MySQL or MarriaDB
 - An environment in which the bash script can be executed.
+- WordPress + wp-cli
 
 ## Overview
 Replace all WordPress DB contents from the specified import file. The processing is performed in the following procedure.
