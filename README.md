@@ -4,9 +4,9 @@ It is a tool of bash script which rewrites all wordpress DB data with import fil
 [Japanease](https://github.com/tadtadya/db-import-bash-for-wp/blob/master/README_ja.md)
 
 ## Requirement
-- MySQL or MarriaDB
+- [MySQL](https://www.mysql.com) or [MarriaDB](https://mariadb.org/)
 - An environment in which the bash script can be executed.
-- WordPress + wp-cli
+- [WordPress](https://wordpress.org/) + [wp-cli](https://wp-cli.org/ja/)
 
 ## Overview
 Replace all WordPress DB contents from the specified import file. The processing is performed in the following procedure.
