@@ -6,6 +6,7 @@ wordpressのDBデータをインポートファイルですべて書き換える
 ## Requirement
 - MySQL or MarriaDB
 - bashスクリプトが実行できる環境。
+- WordPress + wp-cli
 
 ## Overview
 WordPressのDB内容を指定したインポートファイルですべて入れ替えます。処理は以下の手順で行います。
