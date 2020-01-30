@@ -1,6 +1,5 @@
 # wordpress-db-import-bash
 It is a tool of bash script which rewrites all wordpress DB data with import file.
-
 [Japanease](https://github.com/tadtadya/db-import-bash-for-wp/blob/master/README_ja.md)
 
 ## Requirement
@@ -20,7 +19,7 @@ Replace all WordPress DB contents from the specified import file. The processing
 Edit the contents of the script according to your own environment.
 
 | variable | Setting |
-----|:---
+|:---|:---|
 | db_name | WordPress database name |
 | db_user | DB connection user name |
 | db_pass | DB connection password |
@@ -33,11 +32,18 @@ Edit the contents of the script according to your own environment.
 - Validity check of the variable value is not done. Before executing the script, please check the content thoroughly by testing.
 
 ## Usage
-    wp_db_renew.sh import.sql
+
+```bash
+$ ./wp_db_renew.sh import.sql
+```
 
 ### When not changing domain
 Change the last two lines when not changing the domain.
 
-    #eval ${cmd7} && eval ${cmd8} && eval ${cmd9} && \
-    #eval ${cmd10} && eval ${cmd11} && eval ${cmd12}
-    eval ${cmd7} && eval ${cmd8} && eval ${cmd9}
+```vim
+#eval ${cmd7} && eval ${cmd8} && eval ${cmd9} && \
+
+#eval ${cmd10} && eval ${cmd11} && eval ${cmd12}
+
+eval ${cmd7} && eval ${cmd8} && eval ${cmd9}
+```
