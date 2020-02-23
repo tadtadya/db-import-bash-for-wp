@@ -1,6 +1,6 @@
 # wordpress-db-import-bash
 It is a tool of bash script which rewrites all wordpress DB data with import file.
-[Japanease](https://github.com/tadtadya/db-import-bash-for-wp/blob/master/README_ja.md)
+[Japanease](README_ja.md)
 
 ## Requirement
 - [MySQL](https://www.mysql.com) or [MarriaDB](https://mariadb.org/)
