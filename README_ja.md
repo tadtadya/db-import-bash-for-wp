@@ -1,6 +1,6 @@
 # wordpress-db-import-bash
 wordpressのDBデータをインポートファイルですべて書き換えるbashスクリプトです。
-[English](https://github.com/tadtadya/db-import-bash-for-wp/blob/master/README.md)
+[English](README.md)
 
 ## 要件
 - [MySQL](https://www.mysql.com/jp/) or [MarriaDB](https://mariadb.org/)
